@@ -7,14 +7,14 @@
      
 }
 
+#picture {
+    width: 100%; /* Make the image div the same width as the container */
+    height: auto; /* Allow the height to adjust proportionally */
+}
+
 .picture {
-    background: url(/assets/locations/default.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: bottom;
     height: 40%;
     width: auto; 
-    
 }
 
 .information {
