@@ -154,9 +154,8 @@ function changeBackground(loc) {
     // Check if the location exists in the hashmap
     if (locations[loc]) {
         const locationInfo = locations[loc];
-        picBox.style.backgroundImage = "url(assets/locations/" + locationInfo.backgroundImage +")";
+        picBox.src = "url(assets/locations/" + locationInfo.backgroundImage;
         picInfo.textContent = locationInfo.description;
-        console.log("x" + locationInfo.backgroundImage)
     } else {
         // Handle the case where the location is not found
         console.log("Location not found");
