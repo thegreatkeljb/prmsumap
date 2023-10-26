@@ -4,144 +4,144 @@ picInfo = document.getElementById('picInfo');
 const locations = {
     //GEN
     'gen1': {
-        backgroundImage: 'gen-admin.jpg',
+        backgroundImage: 'gen-admin.JPG',
         description: 'PRMSU Administrator Building'
     },
     'gen2': {
-        backgroundImage: 'gen-registrar.jpg',
+        backgroundImage: 'gen-registrar.JPG',
         description: 'Registrar Building'
     },
     'gen3': {
-        backgroundImage: 'gen-qa.jpg',
+        backgroundImage: 'gen-qa.JPG',
         description: 'Student Service and Quality Assurance Building'
     },
     'gen4': {
-        backgroundImage: 'gen-clinic.jpg',
+        backgroundImage: 'gen-clinic.JPG',
         description: 'University Clinic'
     },
     'gen5': {
-        backgroundImage: 'gen-gym.jpg',
+        backgroundImage: 'gen-gym.JPG',
         description: 'PRMSU Gymnasium'
     },
     'gen6': {
-        backgroundImage: 'gen-lib.jpg',
+        backgroundImage: 'gen-lib.JPG',
         description: 'E-Library'
     },
     'gen7': {
-        backgroundImage: 'gen-gad.jpg',
+        backgroundImage: 'gen-gad.JPG',
         description: 'Gender and Development Center'
     },
     'gen8': {
-        backgroundImage: 'gen-dorm.jpg',
+        backgroundImage: 'gen-dorm.JPG',
         description: 'PRMSU Dormitory'
     },
     'gen9': {
-        backgroundImage: 'gen-rotc.jpg',
+        backgroundImage: 'gen-rotc.JPG',
         description: 'ROTC Building'
     },
     //Grad
     'grad1': {
-        backgroundImage: 'grad-new.jpg',
+        backgroundImage: 'grad-new.JPG',
         description: 'Graduate School (New Building)'
     },
     'grad2': {
-        backgroundImage: 'grad-old.jpg',
+        backgroundImage: 'grad-old.JPG',
         description: 'Graduate School (Old Building)'
     },
     'grad3': {
-        backgroundImage: 'grad-law.jpg',
+        backgroundImage: 'grad-law.JPG',
         description: 'Law School Building'
     },
     //CCIT
     'ccit1': {
-        backgroundImage: 'CCIT_New.jpg',
+        backgroundImage: 'CCIT_New.JPG',
         description: 'Computing and Technology Build (CCIT New Building)'
     },
     'ccit2': {
-        backgroundImage: 'CCIT_Old.jpg',
+        backgroundImage: 'CCIT_Old.JPG',
         description: 'Rosellyn E. Magsaysay Memorial Building (CCIT Old Building)'
     },
     //COE
     'coe1': {
-        backgroundImage: 'COE_COE.jpg',
+        backgroundImage: 'COE_COE.JPG',
         description: 'College of Engineering Building'
     },
     'coe2': {
-        backgroundImage: 'COE_SELB.jpg',
+        backgroundImage: 'COE_SELB.JPG',
         description: 'Science and Engineering Laboratory Building (SELB)'
     },
     //CON
     'con1': {
-        backgroundImage: 'CCIT_Old.jpg',
+        backgroundImage: 'CCIT_Old.JPG',
         description: 'CON - Rosellyn E. Magsaysay Memorial Building'
     },
     'con2': {
-        backgroundImage: 'CON_Lab.jpg',
+        backgroundImage: 'CON_Lab.JPG',
         description: 'Nursing Skills Laboratory Building'
     },
     //CIT
     'cit1': {
-        backgroundImage: 'cit-automotive.jpg',
+        backgroundImage: 'cit-automotive.JPG',
         description: 'Automotive Technology Building'
     },
     'cit2': {
-        backgroundImage: 'cit-food.jpg',
+        backgroundImage: 'cit-food.JPG',
         description: 'Food Technology / Food Service Management Building'
     },
     'cit3': {
-        backgroundImage: 'cit-mechanical.jpg',
+        backgroundImage: 'cit-mechanical.JPG',
         description: 'Mechanical Technology Building'
     },
     'cit4': {
-        backgroundImage: 'cit-dean.jpg',
+        backgroundImage: 'cit-dean.JPG',
         description: 'Deans Office Building'
     },
     'cit5': {
-        backgroundImage: 'cit-electrical.jpg',
+        backgroundImage: 'cit-electrical.JPG',
         description: 'Electrical Technology Building'
     },
     'cit6': {
-        backgroundImage: 'cit-civil.jpg',
+        backgroundImage: 'cit-civil.JPG',
         description: 'Civil Technology Building'
     },
     'cit7': {
-        backgroundImage: 'cit-drafting.jpg',
+        backgroundImage: 'cit-drafting.JPG',
         description: 'Drafting Technology Building'
     },
     //CAS
     'cas1': {
-        backgroundImage: 'cas-new.jpg',
+        backgroundImage: 'cas-new.JPG',
         description: 'College of Arts and Sciences New Building'
     },
     'cas2': {
-        backgroundImage: 'cas-old.jpg',
+        backgroundImage: 'cas-old.JPG',
         description: 'College of Arts and Sciences Old Building'
     },
     //CTE
     'cte1': {
-        backgroundImage: 'cte-bldg.jpg',
+        backgroundImage: 'cte-bldg.JPG',
         description: 'College of Teaching Education Building'
     },
     'cte2': {
-        backgroundImage: 'cte-science.jpg',
+        backgroundImage: 'cte-science.JPG',
         description: 'College of Teaching Education Science-Based Education Building'
     },
     //CABA
     'caba1': {
-        backgroundImage: 'caba-old.jpg',
+        backgroundImage: 'caba-old.JPG',
         description: 'College of Accountancy and Business Administration Old Building'
     },
     'caba2': {
-        backgroundImage: 'caba-new.jpg',
+        backgroundImage: 'caba-new.JPG',
         description: 'College of Accountancy and Business Administration New Building'
     },
     //CTHM
     'cthm1': {
-        backgroundImage: 'cthm-bldg.jpg',
+        backgroundImage: 'cthm-bldg.JPG',
         description: 'College of Tourism and Hospitality Management Building'
     },
     'cthm2': {
-        backgroundImage: 'cthm-tourism.jpg',
+        backgroundImage: 'cthm-tourism.JPG',
         description: 'Tourism and Hospitality Management Building'
     },
     'default': {
