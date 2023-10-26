@@ -1,0 +1,31 @@
+* {
+    overflow: hidden;
+    font-family: 'Helvetica Neue', sans-serif
+  }
+
+  .container {
+    padding: 0;
+    background-color: #1b1b1b;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5);
+  }
+  html, body {
+    margin: 0;
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #E1AD01, #f7de8c);
+  }
+
+  #zoom {
+    width: 100%;
+    height: 100%;
+    transform-origin: 0px 0px;
+    transform: scale(1) translate(0px, 0px);
+    cursor: grab;
+  }
+
+  div#zoom > img {
+    width: 100%;
+    height: auto;
+  }

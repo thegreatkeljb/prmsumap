@@ -1,0 +1,25 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+     
+}
+
+.picture {
+    background: url(/assets/locations/default.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 40%;
+    width: auto; 
+    
+}
+
+.information {
+    padding: 1rem;
+    color: #fff;
+    background-color: #353535;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5);
+}

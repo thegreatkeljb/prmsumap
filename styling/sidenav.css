@@ -1,0 +1,103 @@
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.upper {
+    width: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+    max-height: 65vh;
+}
+
+.lower {
+    margin-top: auto;
+    width: 100%;
+}
+
+.nav-item {
+    width: 100%;
+}
+
+.nav-link, 
+.nav-logo {
+    display: flex;
+    align-items: center;
+    height: 4.5rem;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+.nav-link {
+    padding-left: 1rem;
+}
+
+.link-text,
+.link-text-logo {
+    display: flex;
+    margin-left: 1rem;
+    color: white;
+    transition: 300ms ease;
+}
+   
+.group-container {
+    max-height: 50vh;
+    border-radius: 0;
+}
+
+.list-group {
+    border-radius: 0;
+}
+
+.list-group-item,
+.list-group-item a {
+    font-size: 15px;
+    text-align: left;
+    background-color: #1b1b1b;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+}
+
+.list-group-item:hover,
+.list-group-item:hover a {
+    background: #E1AD01;
+    color: #000;
+}
+
+.nav-link svg {
+    height: 20px;
+    filter: invert();
+    display: flex;
+    min-width: 4rem;
+    transition: 300ms;
+}
+
+.nav-item:hover .link-text,
+.nav-item:hover .link-text-logo {
+    display: block;
+    color: black;
+}
+
+.nav-item:hover .nav-link svg {
+    display: block;
+    filter: none;
+}
+
+.nav-link:hover {
+    background: linear-gradient(to right, #E1AD01, #f7de8c);
+}
+
+.logo {
+    margin-bottom: 1rem;
+    width: 10rem;
+}
+
+.link-text-logo {
+    color: rgb(255, 255, 255);
+}
