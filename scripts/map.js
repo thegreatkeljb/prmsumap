@@ -63,7 +63,7 @@ const locations = {
     },
     //COE
     'coe1': {
-        backgroundImage: 'COE_COE.JPG',
+        backgroundImage: 'COE_COE.jpg',
         description: 'College of Engineering Building'
     },
     'coe2': {
