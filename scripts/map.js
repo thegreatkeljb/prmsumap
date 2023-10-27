@@ -76,7 +76,7 @@ const locations = {
         description: 'CON - Rosellyn E. Magsaysay Memorial Building'
     },
     'con2': {
-        backgroundImage: 'CON_Lab.JPG',
+        backgroundImage: 'CON_LAB.JPG',
         description: 'Nursing Skills Laboratory Building'
     },
     //CIT
